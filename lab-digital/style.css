@@ -1,0 +1,92 @@
+#headerBAR{
+    height: 55px;
+}
+
+#headerBAR span{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h1{
+    color: #000;
+    text-align: center;
+    font-size: 4.3vmin;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 1ch;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.container{
+    max-width: 50vmax;
+    margin:auto;
+}
+#thumbnail{
+    /* background-image: url('image/mainmenu.png'); */
+    width: 100%;
+    margin-top: 0;
+    /* background-color: #000; */
+}
+
+#description{
+    width: 100%;
+    font-size: small;
+    line-height: 1.2;
+    text-align: justify;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#download{
+    width: 100%;
+    /* height: 35px; */
+    padding: 3px;
+    border: black solid 1px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: #17C934;
+    font-size: small;
+}
+
+#download-screen{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #E6CA3A;
+}
+
+#download-screen #download-box{
+    position: fixed;
+    width: 90vmin;
+    height: 45vmin;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#download-screen #download-box button{
+    width: 45%;
+    height: 90%;
+    background-color: #B89B00;
+    border: 0px;
+    border-radius: 18px;
+    margin-left: 1%;
+}
+
+#download-screen #close-button{
+    background-color: transparent;
+    border-radius: 50%;
+    border: 0px solid black;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    width: 80px;
+    height: 80px;
+}
